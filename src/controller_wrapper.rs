@@ -2,7 +2,7 @@ use sdl2::Sdl;
 use sdl2::controller::GameController;
 
 pub struct ControllerWrapper {
-    controllers:Vec<GameController>
+    controllers: Vec<GameController>
 }
 
 impl ControllerWrapper {
