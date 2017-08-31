@@ -1,0 +1,10 @@
+[package]
+name = "moonlander"
+version = "0.1.0"
+authors = ["Thomas van den Bighelaar <tmsvdb80@gmail.com>"]
+build = "build.rs"
+
+[dependencies.sdl2]
+    version = "0.30"
+    default-features = false
+    features = ["ttf"]
