@@ -8,6 +8,8 @@ use sdl2::rect::Point;
 use std::time::Duration;
 
 fn main() {
+    // pooo
+    
     let sdl_context = sdl2::init().unwrap();
     let video_subsystem = sdl_context.video().unwrap();
 
